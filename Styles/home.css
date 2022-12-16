@@ -1,0 +1,23 @@
+@import url(../Styles/main.css);
+
+nav ul li:nth-child(1) a{
+    border-bottom: 1px solid white;
+    font-weight: 700;
+ }
+
+ div a{
+   
+        border: 2px solid #FFFFFF;
+        border-radius: 5px;
+        padding: 12px 32px;
+        background-color: transparent;
+        color: white;
+        
+        text-transform: uppercase;
+        cursor: pointer;
+    
+ }
+ div a:hover{
+    background-color: white;
+    color: #02799D;
+}

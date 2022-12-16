@@ -1,0 +1,31 @@
+@import url(../Styles/main.css);
+body{
+    background-image: url(/assets/universebg.png);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    overflow: hidden;
+    
+}
+
+div{
+    width: 64.8rem;
+    margin-left: 10.2rem;
+    margin-top: 8.3rem;
+    color: #ffff;
+    animation:  fade 1s ease-in;
+}
+nav ul li:nth-child(2) a{
+    border-bottom: 1px solid white;
+    font-weight: 700;
+ }
+
+div h1{
+    font-size: 3.5rem;
+}
+
+div p {
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
